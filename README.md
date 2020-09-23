@@ -12,6 +12,8 @@ This application shows the weather information and forecast. It has two services
 ## Step by step
 Follow the instructions to build and run the dockerize applications:
 
+- Generate a API key for the following [link](https://openweathermap.org/) and then add the API key to your backend Dockerfile as an ENV variable.
+
 - Go to *./backend* folder and run the command to build backend image.
 ```
 docker build -t weatherbackend:v1 .
