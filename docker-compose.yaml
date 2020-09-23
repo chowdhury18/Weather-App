@@ -1,0 +1,16 @@
+version: '3'
+services:
+  frontend:
+    container_name: weatherapp_frontend
+    image: weatherfrontend:v1
+    restart: always
+    ports:
+      - 8000:8000
+    depends_on:
+      - backend
+  backend:
+    container_name: weatherapp_backend
+    image: weatherbackend:v1
+    restart: always
+    ports:
+      - 9000:9000
