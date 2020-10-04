@@ -119,6 +119,3 @@ const GLOBALS = {
 ```
 - Follow the previous instruction to deploy the frontend service to the cloud.
 
-## Application
-- I have deployed my WeatherApp in Google Cloud Platform. Check the application through this [link](http://35.228.14.142/).
-
